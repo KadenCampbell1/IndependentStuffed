@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: Snowman.ma
-//Last modified: Fri, Jun 26, 2020 10:45:57 PM
+//Last modified: Fri, Jun 26, 2020 10:54:20 PM
 //Codeset: 1252
 requires maya "2020";
 requires "mtoa" "4.0.3";
@@ -12,12 +12,12 @@ fileInfo "version" "2020";
 fileInfo "cutIdentifier" "202004291615-7bd99f0972";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 18363)\n";
 fileInfo "license" "student";
-fileInfo "UUID" "3C08C010-432F-9D38-1DFD-4CBA45E5A8F3";
+fileInfo "UUID" "D47E428E-48EE-6B12-50A0-72A76D2FB287";
 createNode transform -s -n "persp";
 	rename -uid "B66E3E75-49EA-6859-5472-B19D9E47DC16";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -0.24911195610201492 4.9284378080958433 15.653718430504446 ;
-	setAttr ".r" -type "double3" -8.7383527296070866 -722.19999999981178 -2.486641207319648e-17 ;
+	setAttr ".t" -type "double3" -0.021778775188562804 5.9260341145368374 15.475191225194951 ;
+	setAttr ".r" -type "double3" -12.338352729606454 -721.39999999968779 2.4855503070590828e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "459F3ECE-49DD-7B44-E25E-59B7895F43E8";
 	setAttr -k off ".v" no;
